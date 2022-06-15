@@ -33,7 +33,7 @@ function App() {
     if(calc == ''){
       return;
     }
-    const value = calc.slice(0,-5)
+    const value = calc.slice(0,-1)
     setCalc(value)
   }
   return (
